@@ -17,4 +17,18 @@ The RandomOverSampler and SMOTE algorithms conduct oversampling. The ClusterCent
  ![Undersampling_ClusterCentroids_Results.png](https://github.com/tylerwe19/Mod_18_Challenge/blob/main/Undersampling_ClusterCentroids_Results.PNG)
  
  
- * SMOTEEN Model: 
+ * SMOTEEN Model: This model is similar to the RandomOverSampler model. 
+ ![SMOTEEN_Results.png](https://github.com/tylerwe19/Mod_18_Challenge/blob/main/SMOTEEN_Results.PNG)
+ 
+ 
+ * BalancedRandomForest Model: Of the models we've viewed so far, this model has the best overall recall. Of loans that were actually low risk, the model correctly determined 89% of these loans as being low risk. Of loans that were actually high risk, the model correctly determined 64% of these high risk loans to be high risk loans. 
+ ![BalancedRandomForest_Results.png](https://github.com/tylerwe19/Mod_18_Challenge/blob/main/BalancedRandomForest_Results.PNG)
+ 
+ 
+ * EasyEnsemble Model: This model has the best overall recall and the highest precision of high risk loans. 
+ ![EasyEnsemble_Results.png](https://github.com/tylerwe19/Mod_18_Challenge/blob/main/EasyEnsemble_Results.PNG)
+ 
+ --- 
+ 
+## Summary
+
