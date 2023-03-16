@@ -32,3 +32,6 @@ The RandomOverSampler and SMOTE algorithms conduct oversampling. The ClusterCent
  
 ## Summary
 
+After reviewing these models accuracy, precision, and recall scores, the best model is the EasyEnsemble Model. It has the highest accuracy score. It also hase the highest overall recall score. This means: of loans that were actually low risk, the model correctly determined 94% of these loans to be low risk and of loans that were actually high risk, the model was able to correctly determine 92% of these loans to be high risk. The EasyEnsemble Model also has the highest precision of high risk loans out of any model we've observed in this study. Of loans that the model determined were high risk, only 9% were actually high risk loans. The EasyEnsemble model is able to detect 92% of high risk loans and label them as high risk; however, it produces a lot of false positives. 91% of the loans it labelled as high risk were actually low risk. Therefore, this model's precision in determining/labelling high risk loans needs to be improved in order to be used. If it were used as is a lot of false alarms of high risk loans would haved to be combed through and 91% of loans flagged as high risk would actually be low risk loans.
+
+ ---
